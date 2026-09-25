@@ -71,3 +71,17 @@ Copy for image/carousel ads. Two tones per ingredient: **Clean Beauty** (soft, i
 - **Headline:** Oily AND Dry? Your Skin Is Confused — Here's Why.
 - **Body:** Most products overload your skin with oils it doesn't recognize, throwing moisture levels out of balance. Cold-pressed organic jojoba oil mimics your skin's own oils instead, balancing hydration for a soft, smooth complexion.
 - **CTA:** Restore the balance your skin's been missing.
+
+---
+
+## 6. Raw Organic Honey from Utah
+
+### Clean Beauty
+- **Headline:** Raw. Single-Origin. Straight From Utah.
+- **Body:** Raw organic honey draws moisture into the skin and holds it there, leaving skin soft and supple with a natural, healthy glow. Sourced raw and unheated from Utah hives, so nothing that matters gets processed out.
+- **CTA:** Nature's humectant, exactly as it's found.
+
+### Problem/Solution
+- **Headline:** Your Skin Keeps Losing Moisture as Fast as You Add It?
+- **Body:** Most moisturizers sit on top of skin and evaporate. Raw organic honey pulls moisture in and locks it there, leaving skin soft, supple, and glowing all day — raw and unheated, straight from Utah hives.
+- **CTA:** Stop topping up. Start holding it in.
