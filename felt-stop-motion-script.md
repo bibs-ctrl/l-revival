@@ -1,13 +1,13 @@
 ---
 project: Local Revival - Tallow & Honey Body Wash
-format: felt stop-motion ad, ~26s, vertical 9:16
+format: felt stop-motion ad, ~25s, vertical 9:16
 language_vo: en-US original audio (reused) + pt-BR translation for reference
 source_video: original founder-led video, 74s, 720x1280 (speaker: founder, steel-tank factory background)
 purpose: brief to be read by an AI video/image generator and by the editor
 status: draft v2 (VO lines matched to the original video's audio)
 ---
 
-# Local Revival - Felt Stop-Motion Ad (~26s)
+# Local Revival - Felt Stop-Motion Ad (~25s)
 
 ## How to read this file
 
@@ -113,15 +113,15 @@ real human faces, neon colors, cold lighting
 - **motion:** farm 0-1.5s, farm-to-workshop 1.5-3.0s, bench slide and bathroom reveal 3.0-5.0s.
 - **edit:** none. If the transformation is too complex for one generation, split into 5a (farm to workshop) and 5b (workshop to bathroom) and join in edit.
 
-### CLIP 6 - 0:20-0:26
+### CLIP 6 - 0:20-0:25
 
-- **VO (EN):** "Meet the Tallow & Honey Body Wash from Local Revival." then "Click the link below for 50% off your order today."
-- **VO (PT):** "Conheça o Tallow & Honey Body Wash da Local Revival." / "Clique no link abaixo e ganhe 50% de desconto no seu pedido hoje."
-- **source:** first line NEW (record it). Second line REUSED - original video 1:11-1:14. See open check #2 about the offer.
+- **VO (EN):** "Meet the Tallow & Honey Body Wash from Local Revival. Click the link below."
+- **VO (PT):** "Conheça o Tallow & Honey Body Wash da Local Revival. Clique no link abaixo."
+- **source:** NEW (record it). The original CTA ("50% off") is not used because the offer is no longer available.
 - **prompt:** `[GLOBAL STYLE]` The amber bottle is centered. All surrounding felt pieces stop moving. A felt sign slides in from above and settles under the bottle with a small bounce.
 - **camera:** locked, centered medium shot.
 - **motion:** bottle settles at 0-0.5s, surrounding pieces freeze at ~1.0s, sign drops in at ~2.0s, hold until the end of the VO.
-- **edit:** text on the sign "LOCAL REVIVAL" and "SHOP NOW" (PT version: "COMPRE AGORA"). Add the offer text only if the 50% offer is still valid. Added in post.
+- **edit:** text on the sign "LOCAL REVIVAL" and "SHOP NOW" (PT version: "COMPRE AGORA"). No discount or offer text. Added in post.
 
 ---
 
@@ -136,9 +136,9 @@ real human faces, neon colors, cold lighting
 
 1. Assemble the 6 clips in order; hard cuts, no cross-dissolves (keeps the stop-motion feel).
 2. Overlay all text and the real bottle label (REF-01) in post.
-3. Cut the reused audio from the original video and record the one NEW line (CLIP 6, line 1).
+3. Cut the reused audio from the original video and record the one NEW line (CLIP 6).
 4. Add subtitles (burned-in, large, high contrast) because most viewers watch muted.
-5. Export 9:16, 1080x1920, ~26s.
+5. Export 9:16, 1080x1920, ~25s.
 
 ## SUMMARY TABLE
 
@@ -149,12 +149,12 @@ real human faces, neon colors, cold lighting
 | 3 | 7-11s | REUSED | 0:44-0:48 | Yes |
 | 4 | 11-15s | REUSED | 0:53-0:57 | Yes |
 | 5 | 15-20s | REUSED | 1:03-1:08 | Yes (may split in 5a/5b) |
-| 6 | 20-26s | NEW + REUSED | 1:11-1:14 (CTA) | Yes |
+| 6 | 20-25s | NEW | - | Yes |
 
 ## OPEN CHECKS BEFORE PRODUCTION
 
 1. The original video itself uses "soap" and "grass-finished", so clips 1-2 keep that wording. The product is sold as a body wash; keep the product name "Tallow & Honey Body Wash" in CLIP 6.
-2. The original CTA offers 50% off. Confirm the offer is still active before reusing that line, and remove it from the VO and sign if it is not.
+2. The 50% offer from the original CTA is no longer available. Do not reuse that line or mention any discount anywhere in the ad.
 3. The original says "sourced from American farms". Keep that exact claim, since it is already approved for the company's own video.
 4. Keep the two bowls as a visual highlight only, not an implication that the product has only these two ingredients.
 5. No skin-result claims are included in this script. Do not add them.
