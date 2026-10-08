@@ -1,0 +1,84 @@
+# Local Revival - Felt Stop-Motion Ad | Higgsfield brief
+
+Single source for generation. Read top to bottom, run steps in order. Ignore `felt-stop-motion-script.md` and `felt-stop-motion-cheat-sheet.md` (older, longer, same content).
+
+## Facts
+
+- Product: Local Revival Tallow & Honey Body Wash. Brand claims allowed: "real soap", "grass-finished tallow", "raw honey", "made by hand", "sourced from American farms".
+- Output: 9:16, ~25s, 6 clips, hard cuts. No offer or discount anywhere (50% offer expired).
+- Real bottle: amber glass, pump top, cream swirl label, small orange round badge "Body Wash / Honey / Tallow". Label is added in post, never generated.
+- VO: clips 1-5 cut from the original founder video (audio file, timestamps below). Clip 6 line must be recorded.
+
+## Constants
+
+```
+STYLE = "Handmade felt stop-motion, miniature workshop, warm tungsten light from camera-left, 12 fps stepped frame-by-frame motion, visible wool-felt fibers and hand stitching, tabletop miniature scale, shallow depth of field, locked camera. Cream felt, honey gold, amber brown, soft sage green. Tactile, imperfect, crafted."
+NEG   = "smooth fluid CGI, glossy plastic, 3D render, photorealism, digital cartoon look, motion blur, any text or letters or logos, watermark, real human face, neon, cold light"
+```
+
+Rules for every prompt: start with STYLE, then the shot text. If the model has no negative field, append `Avoid: NEG`.
+
+## Settings (verified in Higgsfield model catalog)
+
+| Step | Model | Settings |
+|---|---|---|
+| Reference images | `nano_banana_pro` | 9:16, 2k, 1 image each |
+| Clips | `seedance_2_5` | mode `omni_reference`, aspect 9:16, `generate_audio` false, 480p draft first (`draft` true), finalize approved drafts at 1080p with `draft_job_id` |
+| Duration | | Min 4s. Generate 4s (clips 1-4) and 5s (clips 5-6); trim in edit |
+
+Always run `get_cost` before a paid call.
+
+## Step 1 - Reference images (generate first, approve, reuse)
+
+| ID | Prompt (STYLE + ...) | Used by |
+|---|---|---|
+| R1 | felt amber bottle with pump top, front view, plain cream felt bench, no label, no text | all clips (`start_image` or `image_references`) |
+| R2 | cream felt workbench in a miniature workshop, empty, camera-left warm light, sage green wall | all clips (set) |
+| R3 | felt artisan, cream apron, two button eyes, no other face detail, front and side view | clips 3, 4 |
+| R4 | two small felt bowls on the bench: left white tallow, right golden honey with a drip | clips 2, 3 |
+
+Approve R1-R4 before Step 2. If R1 drifts between clips, re-attach R1 to every clip.
+
+## Step 2 - Clips
+
+All use `seedance_2_5`. `refs` are attached as `image_references`; the first one also as `start_image`.
+
+| # | Time | Dur | refs | Shot text (append after STYLE) |
+|---|---|---|---|---|
+| 1 | 0-3s | 4s | R1, R2 | The amber felt bottle slides in from the left, stops at center, and bounces once (two frames up, two down). Empty space above the bottle. Medium close-up. |
+| 2 | 3-7s | 4s | R4, R2 | The two felt bowls pop in one after the other (tallow, then honey). A small felt bee hops across the frame in stepped moves and lands by the honey. Slightly high angle. |
+| 3 | 7-11s | 4s | R3, R4, R2 | Felt artisan hands tip both bowls into a small felt pot and stir with a felt spoon in small stepped turns. Thin golden felt strands twist in the pot. Close-up on pot and hands. |
+| 4 | 11-15s | 4s | R3, R1, R2 | Camera tracks sideways in steps as the golden mixture moves on a felt conveyor and fills the amber felt bottle. Ends on a medium close-up of the finished bottle, front facing camera, 1s hold. |
+| 5 | 15-20s | 5s | R1, R2 | A felt farm (barn, fence, small cow) unfolds like cut paper layers into the workshop. The bench slides away and reveals a miniature felt bathroom with a felt shower and hanging felt water drops, the amber bottle beside it. Locked wide shot. |
+| 6 | 20-25s | 5s | R1, R2 | The amber bottle is centered. All surrounding felt pieces stop moving. A blank cream felt sign slides in from above and settles under the bottle with a small bounce. No writing on the sign. |
+
+Fallback: if clip 5 fails, split into 5a (farm to workshop, 4s) and 5b (workshop to bathroom, 4s).
+
+## Step 3 - Voice-over
+
+| # | Line (EN) | Source |
+|---|---|---|
+| 1 | "What you're looking at is real soap." | original video 0:00-0:02 |
+| 2 | "Made from grass-finished tallow and raw honey." | 0:02-0:05 |
+| 3 | "Every batch is made by hand, sourced from American farms." | 0:44-0:48 |
+| 4 | "We're here to bring real soap back. That's why I started Local Revival." | 0:53-0:57 |
+| 5 | "From the farm to the bottle to the shower, we make it ourselves." | 1:03-1:08 |
+| 6 | "Meet the Tallow & Honey Body Wash from Local Revival. Click the link below." | RECORD (new) |
+
+Timestamps are from automatic transcription; verify by ear before cutting. Music: light acoustic, duck ~8 dB under VO. SFX: fabric rustle on pop-ins, spoon clicks, snap-fit on landings.
+
+## Step 4 - Edit (not generated by AI)
+
+1. Hard cuts, in order 1-6. No dissolves.
+2. Clip 1: add felt-style lettering "TALLOW + HONEY".
+3. Clip 4: composite the real label from a product photo onto the bottle.
+4. Clip 6: write "LOCAL REVIVAL" and "SHOP NOW" on the sign.
+5. Burn in large subtitles. Export 1080x1920.
+
+## Do not
+
+- Generate text, logos or the label with AI.
+- Mention a discount, or imply the product has only tallow and honey.
+- Add skin-result or health claims.
+- Reuse the original's private-equity or "detergent in a bottle" lines.
+- Switch models mid-project (keeps the felt look consistent).
