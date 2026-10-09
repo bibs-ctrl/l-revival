@@ -45,7 +45,9 @@
 
 **Notes:**
 
-*UGC style: you, your home, your real routine. Selfie-style talking to camera for the hook, routine and CTA, with B-roll of the routine in between. Warm, low, cozy light for the evening shots (lamp, not overhead). Sound like a friend sharing a habit, not like an ad. Reword any line so it sounds like you, just keep the point.*
+*UGC style: you, your home, your real routine. Selfie-style talking to camera for the hook, routine and CTA, with B-roll of the routine in between. Warm, low, cozy light for the evening shots (lamp, not overhead).*
+
+*Voice: **cozy**. Soft, slow and quiet, like you're telling a friend in bed, almost a whisper-talk. Small pauses between phrases, relaxed shoulders, no hype and no "ad" energy. Reword any line so it sounds like you, just keep the point.*
 
 *Total runtime: ~30 seconds.*
 
@@ -64,10 +66,10 @@
 
 | Script Section | Lines | Instructions |
 | :---- | :---- | :---- |
-| **HOOK** (0–3s) | Everyone talks about sleep hygiene, but nobody talks about the routine. Here's mine. | *Selfie-style, in pajamas or robe, lamp on, bedroom or bathroom. Natural energy, slight smile.* |
-| **ROUTINE** (3–12s) | Same order every night. Phone down, lights low, and a warm shower an hour or so before bed. A routine like this is basically what sleep hygiene is: doing the same things so your body knows it's time to wind down. | *Cut to B-roll while you speak (voiceover is fine): putting the phone face down, turning off the overhead light and turning on the lamp, turning on the shower.* |
-| **PRODUCT** (12–22s) | And the shower is where this comes in. Local Revival, the lavender one. It's made with essential oils, tallow, raw honey, nothing synthetic. So I get out of the shower and into bed smelling like actual lavender. | *Talk to camera holding the Lavender bottle, then B-roll: bottle on the shower shelf, lather in hands, close up of the ingredient list on the back. End with you in bed, smelling your arm or shoulder, natural reaction.* |
-| **CTA** (22–30s) | There are ten scents, but lavender is my night one. 15% off today, link below. | *Back to camera, bottle next to your face. Point down toward the link on "link below".* |
+| **HOOK** (0–4s) | Before bed, my favorite choice of product and scent is this one. | *Selfie-style, in pajamas or robe, lamp on, bedroom or bathroom. Bring the Lavender bottle up to the lens on "this one", label facing camera. Soft voice, slight smile.* |
+| **ROUTINE** (4–13s) | It's part of my wind-down. Phone down, lights low, a warm shower. Same order every night, that's really what sleep hygiene is about. | *Cut to B-roll while you speak (voiceover is fine): putting the phone face down, turning off the overhead light and turning on the lamp, turning on the shower.* |
+| **PRODUCT** (13–23s) | This is Local Revival in lavender. Essential oils, tallow, raw honey, nothing synthetic. And I get into bed smelling like actual lavender. | *Talk to camera holding the bottle, then B-roll: bottle on the shower shelf, lather in hands, close up of the ingredient list on the back. End with you in bed, smelling your arm or shoulder, natural reaction.* |
+| **CTA** (23–30s) | Ten scents to choose from, but lavender is my night one. 15% off today, link below. | *Back to camera, bottle next to your face. Point down toward the link on "link below".* |
 
 ---
 
@@ -75,7 +77,7 @@
 
 * "The part of my night routine I never skip."
 * "I stopped scrolling in bed and started doing this instead."
-* "Rating my night routine, step by step."
+* "Everyone talks about sleep hygiene, but nobody talks about the routine. Here's mine."
 
 ---
 
